@@ -118,11 +118,13 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .skills-title img {
-        height: 40%;
+        height: 50%;
     }
+}
 
+@media screen and (max-width: 480px) {
     .skills-title h1 {
         margin-bottom: 15%;
         padding-top: 10%;

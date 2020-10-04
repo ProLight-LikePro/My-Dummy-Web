@@ -72,18 +72,40 @@ div.active {
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
     .form h1 {
         font-size: 2.5rem;
     }
 }
 
+@media screen and (max-width: 576px) {
+    .form h1 {
+        font-size: 2rem;
+    }
+}
+
 @media screen and (max-width: 480px) {
+    .form h1 {
+        font-size: 1.8rem;
+    }
+
+    .field-name, .field-email, .field-message {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 375px) {
     .form h1 {
         font-size: 1.5rem;
     }
 
     .field-name, .field-email, .field-message {
-        width: 350px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .form h1 {
+        font-size: 1.3rem;
     }
 }
