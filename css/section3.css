@@ -106,7 +106,7 @@ div.active {
 
 @media screen and (max-width: 320px) {
     .form h1 {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 
     .field-name, .field-email, .field-message {
