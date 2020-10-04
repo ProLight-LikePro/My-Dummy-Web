@@ -13,7 +13,7 @@
 
 .skills-title h1 {
     color: #2C2D2F;
-    font-size: 2rem;
+    font-size: 40px;
     font-weight: 500;
     margin-bottom: 15%;
     padding-top: 10%;
@@ -40,7 +40,7 @@
 .react h1,
 .python h1,
 .sass h1 {
-    font-size: 5rem;
+    font-size: 70px;
     font-weight: 800;
 }
 
@@ -61,40 +61,18 @@
 .react p,
 .python p,
 .sass p {
-    font-size: 1.2rem;
+    font-size: 20px;
     font-weight: 500;
 }
 
-@media screen and (max-width: 1200px) {
-    .skills-title h1 {
-        margin-bottom: 10%;
-        padding-top: 5%;
+@media screen and (max-width: 1090px) {
+    .react p {
+        width: 70%;
+        text-align: center;
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .html h1,
-    .css h1,
-    .js h1,
-    .nodejs h1,
-    .react h1,
-    .python h1,
-    .sass h1 {
-    font-size: 4rem;
-    }
-
-    .html p,
-    .css p,
-    .js p,
-    .nodejs p,
-    .react p,
-    .python p,
-    .sass p {
-    font-size: 1.1rem;
-    }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
     .skills {
         display: initial;
     }
@@ -103,35 +81,61 @@
         width: 100%;
     }
 
+    .skills-pages {
+        width: 100%;
+    }
+    
     .skills-title h1 {
         margin-bottom: 5%;
         padding-top: 5%;
     }
 
-    .skills-pages {
-        width: 100%;
+    .skills-title img {
+       height: 380px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .skills-title h1 {
+        font-size: 30px;
+        margin-bottom: 15%;
     }
 
-    .react p {
+    .skills-title img {
+        height: 320px;
+    }
+
+    .html h1,
+    .css h1,
+    .js h1,
+    .nodejs h1,
+    .react h1,
+    .python h1,
+    .sass h1 {
+    font-size: 60px;
+    }
+
+    .nodejs img {
+        width: 300px;
+    }
+
+    .nodejs p, .html p {
         width: 70%;
         text-align: center;
     }
 }
 
-@media screen and (max-width: 600px) {
-    .skills-title img {
-        height: 50%;
-    }
-}
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 430px) {
     .skills-title h1 {
-        margin-bottom: 15%;
-        padding-top: 10%;
+        font-size: 30px;
+        margin-bottom: 25%;
+        padding-top: 15%;
     }
-}
 
-@media screen and (max-width: 420px) {
+    .skills-title img {
+        height: 270px;
+    }
+
     .html h1,
     .css h1,
     .js h1,
@@ -139,39 +143,28 @@
     .react h1,
     .python h1,
     .sass h1 {
-    font-size: 3.5rem;
+    font-size: 50px;
     }
 
-}
-
-@media screen and (max-width: 375px) {
-    .html h1,
-    .css h1,
-    .js h1,
-    .nodejs h1,
-    .react h1,
-    .python h1,
-    .sass h1 {
-    font-size: 3rem;
-    }
-
-    .html p,
-    .nodejs p {
-        width: 70%;
+    .nodejs p, .html p, .css p, .react p, .python p {
+        width: 90%;
         text-align: center;
     }
 
     .nodejs img {
-        width: 70%;
+        width: 250px;
+    }
+
+    .sass img {
+        width: 200px;
+    }
+
+    .react img {
+        width: 270px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .skills-title h1 {
-        margin-bottom: 25%;
-        padding-top: 20%;
-    }
-
     .html h1,
     .css h1,
     .js h1,
@@ -179,23 +172,7 @@
     .react h1,
     .python h1,
     .sass h1 {
-    font-size: 2.5rem;
+    font-size: 40px;
     }
 
-    .html p,
-    .nodejs p,
-    .react p,
-    .css p,
-    .python p {
-        width: 90%;
-        text-align: center;
-    }
-
-    .sass img {
-        width: 70%;
-    }
-
-    .react img {
-        width: 90%;
-    }
 }

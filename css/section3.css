@@ -7,11 +7,12 @@
 
 .form h1 {
     color: #fff;
-    font-size: 3rem;
+    font-size: 50px;
     position: absolute;
+    width: 100%;
+    text-align: center;
     top: 20%;
-    left: 50%;
-    transform: translate(-50%, -20%);
+    transform: translateY(-20%);
 }
 
 .field-name, .field-email, .field-message {
@@ -72,40 +73,28 @@ div.active {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
+    .field-name, .field-email, .field-message {
+        width: 350px;
+    }
+
     .form h1 {
-        font-size: 2.5rem;
+        font-size: 40px;
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 430px) {
     .form h1 {
-        font-size: 2rem;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .form h1 {
-        font-size: 1.8rem;
+        font-size: 30px;
     }
 
     .field-name, .field-email, .field-message {
-        width: 300px;
+        width: 290px;
     }
 }
 
-@media screen and (max-width: 375px) {
-    .form h1 {
-        font-size: 1.5rem;
-    }
-
+@media screen and (max-width: 350px) {
     .field-name, .field-email, .field-message {
         width: 250px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .form h1 {
-        font-size: 1.3rem;
     }
 }

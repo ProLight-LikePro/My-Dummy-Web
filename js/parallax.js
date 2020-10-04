@@ -1,7 +1,7 @@
 function splitScroll() {
     var w = window.innerWidth;
 
-    if (w < 769) {
+    if (w < 991) {
         return;
     }
 
