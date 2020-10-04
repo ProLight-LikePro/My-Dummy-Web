@@ -80,12 +80,6 @@ div.active {
 
 @media screen and (max-width: 480px) {
     .form h1 {
-        font-size: 2rem;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    .form h1 {
         font-size: 1.8rem;
     }
 

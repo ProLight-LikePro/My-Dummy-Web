@@ -119,6 +119,10 @@
 }
 
 @media screen and (max-width: 480px) {
+    .skills-title img {
+        height: 50%;
+    }
+
     .skills-title h1 {
         margin-bottom: 15%;
         padding-top: 10%;
@@ -126,10 +130,6 @@
 }
 
 @media screen and (max-width: 420px) {
-    .skills-title img {
-        height: 55%;
-    }
-
     .html h1,
     .css h1,
     .js h1,
@@ -165,10 +165,6 @@
 }
 
 @media screen and (max-width: 320px) {
-    .skills-title img {
-        height: 35%;
-    }
-
     .skills-title h1 {
         margin-bottom: 25%;
         padding-top: 20%;
