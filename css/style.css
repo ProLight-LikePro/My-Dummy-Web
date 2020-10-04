@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    position: relative;
+    background-color: #2C2D2F;
+    color: #fff;
+    height: 100vh;
+    text-align: center;
+}
+
+.footer-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.footer-text > p:nth-of-type(1) {
+    font-size: 2rem;
+    font-weight: 400;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-text p:nth-of-type(2) {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 3% 0;
+}
+
+.footer-text img {
+    width: 10%;
+}
+
+.footer-text p:nth-of-type(3) {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 1.5% 0;
+}
+
+.footer-text a {
+    font-size: 1rem;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.footer-text a:hover {
+    color: #C4C4C4;
+}
+
+.footer-text a:nth-of-type(2) {
+    margin: 0 2%;
+}
+
+.credits {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.credits p {
+    font-size: 0.6rem;
+    color: #C4C4C4;
+}
+
+.credits a {
+    color: #C4C4C4;
+    font-size: 0.6rem;
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-text > p:nth-of-type(1),
+    .footer-text p:nth-of-type(2) {
+        font-size: 1.5rem;
+    }
+
+    .footer-text img {
+        width: 15%;
+    }
+
+    .footer-text p:nth-of-type(3) {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer-text > p:nth-of-type(1) {
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    .footer-text p:nth-of-type(2) {
+        font-size: 1rem;
+    }
+
+    .footer-text p:nth-of-type(3) {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .footer-text img {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .footer-text > p:nth-of-type(1),
+    .footer-text p:nth-of-type(2) {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer-text img {
+        width: 30%;
+    }
+}

@@ -1,0 +1,115 @@
+.form {
+    height: 100vh;
+    background-color:#2C2D2F;
+    transition: background 0.5s ease;
+    position: relative;
+}
+
+.form h1 {
+    color: #fff;
+    font-size: 3rem;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+}
+
+.field-name, .field-email, .field-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.field-name i, .field-email i, .field-message i {
+    padding: 10px;
+}
+
+.field-name i:last-child, .field-email i:last-child, .field-message i:last-child {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.field-name input, .field-email input, .field-message input {
+    background: none;
+    border: none;
+    flex: 1;
+    height: 100%;
+    outline: none;
+}
+
+div.innactive {
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, 50%);
+}
+
+div.active {
+    opacity: 1;
+    pointer-events: all;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    50% {
+        transform: translate(-50%, -50%) rotate(10deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .form h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .form h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .form h1 {
+        font-size: 1.8rem;
+    }
+
+    .field-name, .field-email, .field-message {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .form h1 {
+        font-size: 1.6rem;
+    }
+
+    .field-name, .field-email, .field-message {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .form h1 {
+        font-size: 1.4rem;
+    }
+
+    .field-name, .field-email, .field-message {
+        width: 250px;
+    }
+}
